@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="https://github.com/root-project/root.git" path="third_party/cern_root"
+       revision="refs/tags/v6-28-04"/>
+  <project name="https://github.com/Geant4/geant4.git" path="third_party/geant4_11_1"
+       revision="refs/tags/v11.1.2"/>
+  <project name="https://github.com/GENIE-MC/Generator.git" path="third_party/genie"
+       revision="refs/tags/R-3_04_00"/>
+</manifest>
