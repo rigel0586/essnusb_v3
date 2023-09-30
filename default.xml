@@ -10,7 +10,7 @@
         remote="dependencies"
         path="third_party/dependencies"
         revision="main"/>
-  <!-- <project name="root" 
+  <project name="root" 
         remote="root_git"
         path="third_party/cern_root"
         revision="refs/tags/v6-28-04"/>
@@ -21,5 +21,5 @@
   <project name="Generatort" 
       remote="genie_git" 
       path="third_party/genie" 
-      revision="refs/tags/R-3_04_00"/> -->
+      revision="refs/tags/R-3_04_00"/>
 </manifest>
