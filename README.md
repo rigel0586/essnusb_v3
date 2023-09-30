@@ -1,7 +1,7 @@
 # Prerequisites
-Install the google repo tool. \n
-$sudo apt-get install repo
+Install the google repo tool.   
+$sudo apt-get install repo   
 
-Then execute \n
-repo init -u https://github.com/rigel0586/essnusb_v3.git -m default.xml \n
+Then execute   
+repo init -u https://github.com/rigel0586/essnusb_v3.git -m default.xml   
 repo sync
