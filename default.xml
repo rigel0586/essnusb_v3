@@ -4,7 +4,12 @@
   <remote name="root_git" fetch="https://github.com/root-project/"/>
   <remote name="geant4_git" fetch="https://github.com/Geant4/"/>
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
+  <remote name="dependencies" fetch="https://github.com/rigel0586"/>
   
+  <project name="essnusb_v3_dependencies" 
+        remote="dependencies"
+        path="third_party/dependencies"
+        revision="main"/>
   <project name="root" 
         remote="root_git"
         path="third_party/cern_root"
