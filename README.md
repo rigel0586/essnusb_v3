@@ -1,2 +1,3 @@
-# essnusb_v3
-Repository containing the repo manifest file
+# Prerequisites
+Install the google repo tool.
+$sudo apt-get install repo
