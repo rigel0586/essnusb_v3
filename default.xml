@@ -5,7 +5,7 @@
   <remote name="geant4_git" fetch="https://github.com/Geant4/"/>
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
   <remote name="dependencies" fetch="https://github.com/rigel0586"/>
-  <remote name="genfit_git" fetch="https://github.com/GenFit/>
+  <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
   
   <project name="essnusb_v3_dependencies" 
         remote="dependencies"
