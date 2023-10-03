@@ -5,6 +5,7 @@
   <remote name="geant4_git" fetch="https://github.com/Geant4/"/>
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
   <remote name="dependencies" fetch="https://github.com/rigel0586"/>
+  <remote name="genfit_git" fetch="https://github.com/GenFit/>
   
   <project name="essnusb_v3_dependencies" 
         remote="dependencies"
@@ -22,4 +23,8 @@
       remote="genie_git" 
       path="third_party/genie" 
       revision="refs/tags/R-3_04_00"/>
+  <project name="GenFit" 
+      remote="genfit_git" 
+      path="third_party/genfit" 
+      revision="refs/tags/02-00-02"/>
 </manifest>
