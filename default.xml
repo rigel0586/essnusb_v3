@@ -4,13 +4,16 @@
   <remote name="root_git" fetch="https://github.com/root-project/"/>
   <remote name="geant4_git" fetch="https://github.com/Geant4/"/>
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
-  <remote name="dependencies" fetch="https://github.com/rigel0586"/>
+  <remote name="essnusb_rigel" fetch="https://github.com/rigel0586"/>
   <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
-  <remote name="essnusb_fw_git" fetch="https://github.com/rigel0586/"/>
   
   <project name="essnusb_v3_dependencies" 
-        remote="dependencies"
+        remote="essnusb_rigel"
         path="third_party/dependencies"
+        revision="main"/>
+  <project name="essnusb_v3_fw" 
+        remote="essnusb_rigel"
+        path="fw/essnusb_v3_fw"
         revision="main"/>
   <project name="root" 
         remote="root_git"
