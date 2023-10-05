@@ -6,6 +6,7 @@
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
   <remote name="dependencies" fetch="https://github.com/rigel0586"/>
   <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
+  <remote name="essnusb_fw_git" fetch="https://github.com/rigel0586/"/>
   
   <project name="essnusb_v3_dependencies" 
         remote="dependencies"
