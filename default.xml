@@ -6,6 +6,7 @@
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
   <remote name="essnusb_rigel" fetch="https://github.com/rigel0586"/>
   <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
+  <remote name="google_test_git" fetch="https://github.com/google/"/>
   
   <project name="essnusb_v3_dependencies" 
         remote="essnusb_rigel"
@@ -31,4 +32,8 @@
       remote="genfit_git" 
       path="third_party/genfit" 
       revision="refs/tags/02-00-02"/>
+  <project name="googletest" 
+        remote="google_test_git"
+        path="third_party/googletest"
+        revision="refs/tags/v1.14.0"/>
 </manifest>
