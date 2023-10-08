@@ -1,6 +1,6 @@
 # Prerequisites
 Install the google repo tool.   
-
+$sudo apt-get install git (optional, if git is not available)    
 $sudo apt-get install repo   
 
 Then execute   
