@@ -7,7 +7,8 @@
   <remote name="essnusb_rigel" fetch="https://github.com/rigel0586"/>
   <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
   <remote name="google_test_git" fetch="https://github.com/google/"/>
-  
+  <remote name="fairlogger_git" fetch="https://github.com/FairRootGroup/"/>
+
   <project name="essnusb_v3_dependencies" 
         remote="essnusb_rigel"
         path="third_party/dependencies"
@@ -36,4 +37,8 @@
         remote="google_test_git"
         path="third_party/googletest"
         revision="refs/tags/v1.14.0"/>
+  <project name="FairLogger" 
+        remote="fairlogger_git"
+        path="third_party/fairlogger"
+        revision="refs/tags/v1.11.1"/>
 </manifest>
