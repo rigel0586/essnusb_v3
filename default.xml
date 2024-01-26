@@ -17,6 +17,10 @@
         remote="essnusb_rigel"
         path="fw/essnusb_v3_fw"
         revision="main"/>
+  <project name="PathFinder" 
+        remote="essnusb_rigel"
+        path="third_party/PathFinder"
+        revision="master"/>
   <project name="root" 
         remote="root_git"
         path="third_party/cern_root"
