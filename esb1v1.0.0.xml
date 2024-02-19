@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote repositories definition -->
+  <remote name="root_git" fetch="https://github.com/root-project/"/>
+  <remote name="fairroot_git" fetch="https://github.com/FairRootGroup/"/>
+  <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
+  <remote name="essnusb_rigel" fetch="https://github.com/rigel0586"/>
+  <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
+  <remote name="google_test_git" fetch="https://github.com/google/"/>
+  
+  <project name="essnusb_v3_dependencies" 
+        remote="essnusb_rigel"
+        path="third_party/dependencies"
+        revision="refs/tags/v1.0.0"/>
+  <project name="ESSnuSB-soft" 
+        remote="essnusb_rigel"
+        path="fw/ESSnuSB-soft"
+        revision="updated2024"/>
+  <project name="PathFinder" 
+        remote="essnusb_rigel"
+        path="third_party/PathFinder"
+        revision="master"/>
+  <project name="root" 
+        remote="root_git"
+        path="third_party/cern_root"
+        revision="refs/tags/v6-24-06"/>
+  <project name="Generator" 
+      remote="genie_git" 
+      path="third_party/genie" 
+      revision="refs/tags/R-3_04_00"/>
+  <project name="GenFit" 
+      remote="genfit_git" 
+      path="third_party/genfit" 
+      revision="refs/tags/02-00-02"/>
+  <project name="googletest" 
+        remote="google_test_git"
+        path="third_party/googletest"
+        revision="refs/tags/v1.14.0"/>
+  <project name="FairRoot" 
+        remote="fairroot_git"
+        path="third_party/fairroot"
+        revision="refs/tags/v18.6.5"/>
+  <project name="FairSoft" 
+        remote="fairroot_git"
+        path="third_party/fairsoft"
+        revision="refs/tags/apr21p2"/>
+</manifest>
