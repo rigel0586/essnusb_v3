@@ -23,7 +23,7 @@
   <project name="root" 
         remote="root_git"
         path="third_party/cern_root"
-        revision="refs/tags/v6-24-06"/>
+        revision="refs/tags/v6-24-08"/>
   <project name="Generator" 
       remote="genie_git" 
       path="third_party/genie" 
