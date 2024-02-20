@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote repositories definition -->
-  <remote name="root_git" fetch="https://github.com/root-project/"/>
-  <remote name="xrootd_git" fetch="https://github.com/xrootd/"/>
   <remote name="fairroot_git" fetch="https://github.com/FairRootGroup/"/>
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
   <remote name="essnusb_rigel" fetch="https://github.com/rigel0586"/>
@@ -23,14 +21,6 @@
         remote="essnusb_rigel"
         path="third_party/PathFinder"
         revision="master"/>
-  <project name="root" 
-        remote="root_git"
-        path="third_party/cern_root"
-        revision="refs/tags/v6-24-08"/>
-  <project name="xrootd" 
-        remote="xrootd_git"
-        path="third_party/xrootd"
-        revision="refs/tags/v5.6.7"/>
   <project name="Generator" 
       remote="genie_git" 
       path="third_party/genie" 
