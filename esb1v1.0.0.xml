@@ -40,5 +40,5 @@
   <project name="FairSoft" 
         remote="fairroot_git"
         path="third_party/fairsoft"
-        revision="refs/tags/apr21p2"/>
+        revision="refs/tags/jan24"/>
 </manifest>
