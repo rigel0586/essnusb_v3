@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote repositories definition -->
-  <remote name="fairroot_git" fetch="https://github.com/FairRootGroup/"/>
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
   <remote name="essnusb_rigel" fetch="https://github.com/rigel0586"/>
   <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
   <remote name="google_test_git" fetch="https://github.com/google/"/>
 
-
-  
   <project name="essnusb_v3_dependencies" 
         remote="essnusb_rigel"
         path="third_party/dependencies"
@@ -34,11 +31,11 @@
         path="third_party/googletest"
         revision="refs/tags/v1.14.0"/>
   <project name="FairRoot" 
-        remote="fairroot_git"
+        remote="essnusb_rigel"
         path="third_party/fairroot"
-        revision="refs/tags/v18.6.5"/>
+        revision="master"/>
   <project name="FairSoft" 
-        remote="fairroot_git"
+        remote="essnusb_rigel"
         path="third_party/fairsoft"
-        revision="refs/tags/jan24"/>
+        revision="master"/>
 </manifest>
