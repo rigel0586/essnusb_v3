@@ -21,7 +21,7 @@
   <project name="Genie-Generator" 
       remote="essnusb_esbroot" 
       path="third_party/genie" 
-      revision="refs/tags/essnusb-3_00_02"/>
+      revision="essnusb-current"/>
   <project name="GenFit" 
       remote="essnusb_rigel" 
       path="third_party/genfit" 
