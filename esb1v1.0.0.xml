@@ -3,7 +3,7 @@
   <!-- Remote repositories definition -->
   <remote name="genie_git" fetch="https://github.com/GENIE-MC/"/>
   <remote name="essnusb_rigel" fetch="https://github.com/rigel0586"/>
-  <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
+  <remote name="essnusb_esbroot" fetch="https://github.com/ESSnuSB"/>
   <remote name="google_test_git" fetch="https://github.com/google/"/>
 
   <project name="essnusb_v3_dependencies" 
@@ -18,14 +18,14 @@
         remote="essnusb_rigel"
         path="third_party/PathFinder"
         revision="master"/>
-  <project name="Generator" 
-      remote="genie_git" 
+  <project name="Genie-Generator" 
+      remote="essnusb_esbroot" 
       path="third_party/genie" 
-      revision="refs/tags/R-3_04_00"/>
+      revision="refs/tags/essnusb-3_00_02"/>
   <project name="GenFit" 
-      remote="genfit_git" 
+      remote="essnusb_rigel" 
       path="third_party/genfit" 
-      revision="refs/tags/02-00-02"/>
+      revision="master"/>
   <project name="googletest" 
         remote="google_test_git"
         path="third_party/googletest"
