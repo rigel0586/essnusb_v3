@@ -3,4 +3,5 @@ Date        Note
             v1.2.0 - Added Qt setup and initial visualization
             v1.2.1 - Added setup scripts for OpenInventor and Herapp for data visualization
 06.03.24    v1.2.2 - First impl of Cern root TEveManager
-10.05.24    v1.2.2 - patch4: Fix magnetic field to be added properly to detector.
+10.05.24    v1.2.2 - patch5: Fix magnetic field to be added properly to detector.
+                             Fix colorization for XZ axis histogram
