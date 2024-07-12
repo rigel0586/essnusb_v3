@@ -6,3 +6,4 @@ Date        Note
 10.05.24    v1.2.2 - patch5: Fix magnetic field to be added properly to detector.
                              Fix colorization for XZ axis histogram
 12.07.24    v1.2.2 - patch6: Fix lhapdf5 build. Uncomment untar of tar file in build.sh
+                             Add export root geometry volume
