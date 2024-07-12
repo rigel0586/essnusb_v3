@@ -16,7 +16,7 @@
   <project name="essnusb_v3_fw" 
         remote="essnusb_rigel"
         path="fw/essnusb_v3_fw"
-        revision="refs/tags/v1.2.2_hf5"/>
+        revision="refs/tags/v1.2.2_hf6"/>
   <project name="PathFinder" 
         remote="essnusb_rigel"
         path="third_party/PathFinder"
