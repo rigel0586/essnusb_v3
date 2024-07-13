@@ -7,3 +7,4 @@ Date        Note
                              Fix colorization for XZ axis histogram
 12.07.24    v1.2.2 - patch6: Fix lhapdf5 build. Uncomment untar of tar file in build.sh
                              Add export root geometry volume
+14.07.24    v1.2.2 - patch7: Use separate class for root eve display
