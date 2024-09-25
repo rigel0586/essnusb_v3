@@ -8,3 +8,4 @@ Date        Note
 12.07.24    v1.2.2 - patch6: Fix lhapdf5 build. Uncomment untar of tar file in build.sh
                              Add export root geometry volume
 14.07.24    v1.2.2 - patch7: Use separate class for root eve display
+25.09.24    v1.2.3 - First full version of Cern root visualization
