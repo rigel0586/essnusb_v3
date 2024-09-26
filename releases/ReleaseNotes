@@ -9,3 +9,4 @@ Date        Note
                              Add export root geometry volume
 14.07.24    v1.2.2 - patch7: Use separate class for root eve display
 25.09.24    v1.2.3 - First full version of Cern root visualization
+26.09.24    v1.2.3 - patch1: Add pass converted geant4 world after cern world geometry is constructed.
