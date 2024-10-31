@@ -8,7 +8,7 @@
   <remote name="genfit_git" fetch="https://github.com/GenFit/"/>
   <remote name="google_test_git" fetch="https://github.com/google/"/>
   <remote name="fairlogger_git" fetch="https://github.com/FairRootGroup/"/>
-  <remote name="vgm_git" fetch="https://github.com/vmc-project/vgm.git"/>
+  <remote name="vgm_git" fetch="https://github.com/vmc-project"/>
 
   <project name="essnusb_v3_dependencies" 
         remote="essnusb_rigel"
