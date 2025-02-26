@@ -28,7 +28,7 @@
         revision="refs/tags/v6-32-10"/>
   <project name="geant4" 
        remote="geant4_git"
-       path="third_party/geant4_11_1"
+       path="third_party/geant4_11_3"
        revision="refs/tags/v11.3.0"/>
   <project name="Generator" 
       remote="genie_git" 
