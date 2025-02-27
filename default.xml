@@ -41,7 +41,7 @@
   <project name="googletest" 
         remote="google_test_git"
         path="third_party/googletest"
-        revision="refs/tags/v1.14.0"/>
+        revision="refs/tags/v1.16.0"/>
   <project name="FairLogger" 
         remote="fairlogger_git"
         path="third_party/fairlogger"
