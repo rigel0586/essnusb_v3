@@ -25,7 +25,7 @@
   <project name="root" 
         remote="root_git"
         path="third_party/cern_root"
-        revision="refs/tags/v6-32-10"/>
+        revision="refs/tags/v6-28-12"/>
   <project name="geant4" 
        remote="geant4_git"
        path="third_party/geant4_11_3"
