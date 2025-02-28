@@ -10,8 +10,6 @@
   <remote name="fairlogger_git" fetch="https://github.com/FairRootGroup/"/>
   <remote name="vgm_git" fetch="https://github.com/vmc-project"/>
   <remote name="pyenv_git" fetch="https://github.com/pyenv"/>
-  <remote name="vdt_git" fetch="https://github.com/drbenmorgan"/>
-  /vdt.git
 
   <project name="essnusb_v3_dependencies" 
         remote="essnusb_rigel"
@@ -57,8 +55,4 @@
         remote="pyenv_git"
         path="third_party/pyenv"
         revision="refs/tags/v2.5.3"/>
-  <project name="vdt" 
-        remote="vdt_git"
-        path="third_party/vdt"
-        revision="master"/>
 </manifest>
