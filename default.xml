@@ -33,7 +33,7 @@
   <project name="Generator" 
       remote="genie_git" 
       path="third_party/genie" 
-      revision="refs/tags/R-3_06_00"/>
+      revision="refs/tags/R-3_04_00"/>
   <project name="GenFit" 
       remote="genfit_git" 
       path="third_party/genfit" 
